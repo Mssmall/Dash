@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Handlee|Permanent+Marker" rel="stylesheet">
+
+
+<style>
+body {
+  font-family: 'Handlee', cursive;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #E8E9EA;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #072E84;
+  margin: 60px 0 0 0;
+}
+h2 {
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  color: #000000;
+  margin: 0px 0 50px 0;
+}
+h3 {
+  text-align: center;
+  margin: 40px 0 50px 0;
+  font-size: 25px;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: white;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+ input {
+      border: 0;
+      padding: 3px;
+      font-size: 14px;
+      margin: 10px;
+    }
+    input[type="submit"] {
+      background: #E8E9EA;
+      color: black;
+    }
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.europe{
+  background-image: url("http://i.dailymail.co.uk/i/pix/2010/12/29/article-1342456-0C91D5A5000005DC-292_634x321.jpg");
+}
+.usa{
+  background-image: url("https://goairportshuttle.com/images/site/slider-las-vegas-2.jpg");
+}
+.asia{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/75/Hong_Kong_at_night.jpg");
+}
+.africa{
+  background-image: url("http://www.africauncovered.com/media/assets/03/750f4caf4954a169499d674b409091d2725b59.jpg");
+}
+.southamerica{
+  background-image: url("http://www.machupicchutrek.net/wp-content/uploads/2014/09/machu-picchu-trek.jpg");
+}
+
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  small {
+    font-size: 13px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1> Dare Travel</h1>
+<h2>What are you waiting for?</h2>
+<div class="europe">
+  <p>EUROPE Tours <span class="price"></span><br />
+  <small>A continent of so many different cultures, languages and people. There are so many possibilities. </small></p>
+</div>
+
+<div class="usa">
+  <p> USA&CANADA Tours <span class="price"></span><br />
+  <small>A land of natural beauty on the one hand and huge, bustling cities on the other. </small></p>
+</div>
+  
+<div class="asia">
+  <p>ASIA Tours <span class="price"></span><br />
+  <small>A world unlike any other.</small></p>
+</div>
+
+<div class="africa">
+  <p>AFRICA Tours<span class="price"></span><br />
+  <small>A land still very much untouched by the Western world, where animals roam wild.</small></p>
+</div>
+
+<div class="southamerica">
+  <p>SOUTH AMERICA Tours <span class="price"></span><br />
+  <small>A continent full of adventure where you will have to step outside your comfort zone. </small></p>
+</div>
+
+<h3>Where will you go?</h3>
+ <input type="email" placeholder="CONTACT US">
+  <input type="submit">
+  <br><br>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
