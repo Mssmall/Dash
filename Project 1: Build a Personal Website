@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+  <title>Elisabeth Lai</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Cantarell|Herr+Von+Muellerhoff|Satisfy" rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+      background-color: white;
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: helvetica;
+    }
+   
+}
+    div {
+  height: 200px;
+  position: relative;
+  margin: 50px 20 40 20;
+  border-radius: 12px;
+  border: px solid black;
+  
+  
+}
+  h1 {
+    font-size: 60px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+  }
+    p {
+     font-size: 13px;
+     font-family: 'Cantarell', sans-serif;
+    }
+    
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0);
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 20px 20px 20px;
+      font-family: 'Cantarell', sans-serif;
+      font-size: 17px;
+      color: 061366;
+      
+      
+    }
+    input {
+      border: 0;
+      padding: 8px;
+      font-size: 12px;
+      margin: 30px;
+    }
+    input[type="submit"] {
+      background: white;
+      color: grey;
+    }
+    h2 {
+      font-family: 'Satisfy', cursive;
+      color: 061366;
+      font-size: 18px;
+    }
+   
+   @media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  
+  li {
+    font-size: 12px;
+    display: inline;
+    padding: 0px 5px 0px 5px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  input {
+    font-size: 11px;
+    margin: 3px;
+  }
+ h2 {
+   font-size: 14px;
+   }
+    
+  }
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="first">
+  <h1>Elisabeth Lai.</h1>
+  
+  <br><br>
+  
+   <ul>
+      <li> HOME </li>
+      <li>ABOUT</li>
+      <li>PORTFOLIO</li>
+      <li>GALLERY</li>
+      <li> CONTACT </li>
+    </ul>
+    <br><br>
+  <p>
+  <br>
+  A daughter, sister & friend.<br>A Chelsea FC fanatic.<br>A curious traveller.<br>A tv show lover.<br>A listener.<br> A coder. <br>
+  </p>
+  EL
+  <br> <br> <br> 
+   <h2>
+"If you can make someone happy, why not do it."
+  </h2>
+  <input type="email" placeholder="Ask me anything.">
+  <input type="submit">
+  <br>
+  ___________________________________________________________________
+</body>
