@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<header>
+  <link href="/normalize.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Karla|Reenie+Beanie" rel="stylesheet">
+ </header>
+  <style>
+  
+    header {
+      text-align: center;
+      background: url('https://assets3.thrillist.com/v1/image/1704223/size/tmg-facebook_social.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      opacity: 0.7;
+   
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      max-width: 250px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 20px 0px 20px;
+      color: white;
+      font-family: 'Karla', sans-serif;
+      font-size: 18px;
+      
+    }
+    article {
+      max-width: 500px;
+      padding: 0px;
+      margin: 0 auto;
+    }
+    
+    p {
+      font-family: 'Reenie Beanie', cursive;
+      font-size: 20px;
+      }
+      
+    h2 {
+      font-family: 'Karla', sans-serif;
+      }
+      
+    button {
+      font-family: 'Karla', sans-serif;
+      font-size: 11px;
+    }
+    
+    @media (max-width: 500px) {
+      img{
+        max-width: 150px
+        }
+      h1 {
+        font-size: 25px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+        font-size: 15
+      }
+      h2 {
+        font-size: 15px;
+        }
+      p{
+        font-size: 17px;}
+    }
+  </style>
+
+
+
+  <header>
+    <img src="https://photos-3.dropbox.com/t/2/AAAOaeRmnx9rfTWmrNymg7-p-JcpQr9NzMIhIDdFc6jh8g/12/137596679/jpeg/32x32/1/_/1/2/IMG_1994.JPG/EJXKuWkY-DEgBygH/yToSdArufU5If6ZV9ibUZFgBZ00zV-ASqxC3z6Gq-qE?size=1280x960&size_mode=3">
+    <ul>
+      <li>ABOUT ME</li>
+      <li>PRESENT TRIP</li>
+      <li>PAST TRIPS</li>
+      <li>CONTACT</li>
+    </ul>
+  </header>
+  
+  <body>
+  <article>
+    <h1>USA:</h1>
+    <h2>5th AUGUST, 2016 ----> VEGAS BABY</h2>
+    <p>What happens in Vegas stays in Vegas, or in this case, gets published on the world wide web for anyone and everyone to read. I think I am breaking many honorary Vegas rules, but how am I supposed to inspire y'all to get up and go see for y'allselves. </p>
+    <button>Read More</button>
+  </article>
+  <article>
+    <h2>3rd AUGUST, 2016 ----> YOSEMITE</h2>
+    <p>I love dinosaurs and I am convinced that dinosaurs lived here back in the day. Add that to the fact that the park itself is incredible and I've got myself a dream destination. </p>
+    <button>Read More</button>
+  </article>
+  <article>
+    <h2>1st AUGUST, 2016 ----> SAN FRANCISCO</h2>
+    <p>Put the Golden Gate Bridge, Berkeley, seals, chowder, Alcatraz, hilly streets, trams, wind, malls, and culture into a pot and you've got yourself a great city.  </p>
+    <button>Read More</button>
+    <br><br><br>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
